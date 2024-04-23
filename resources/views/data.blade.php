@@ -11,7 +11,7 @@
 </head>
 <body>
     <h1 class="text-center">Data</h1>
-    <div class="d-flex justify-content-center">
+    <!--<div class="d-flex justify-content-center">
         <form action="{{ route('create') }}" method="POST">
             @csrf
             @method('POST')
@@ -21,7 +21,7 @@
             </div>
             <button type="submit" class="btn btn-primary m-3">Add data</button>
         </form>
-    </div>
+    </div>-->
     <div class="d-flex justify-content-center">
         <table class="table table-dark table-striped" style="width: 75%;">
             <thead>
